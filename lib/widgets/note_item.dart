@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class NoteItem extends StatelessWidget {
   const NoteItem({super.key});
@@ -27,7 +28,11 @@ class NoteItem extends StatelessWidget {
             ),
             trailing: IconButton(
               onPressed: () {},
-              icon: Icon(Icons.delete, color: Colors.black, size: 35),
+              icon: FaIcon(
+                FontAwesomeIcons.trash,
+                color: Colors.black,
+                size: 30,
+              ),
             ),
           ),
           Text('May21, 2026', style: TextStyle(color: Colors.black)),
