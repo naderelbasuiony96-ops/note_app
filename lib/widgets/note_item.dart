@@ -7,7 +7,7 @@ class NoteItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.yellow,
+        color: const Color(0xffFFCC80),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
@@ -19,7 +19,7 @@ class NoteItem extends StatelessWidget {
               style: TextStyle(color: Colors.black, fontSize: 26),
             ),
             subtitle: const Text(
-              ' build new project with Nader Amr ',
+              ' build project with Nader Amr ',
               style: TextStyle(
                 color: Color.fromARGB(85, 0, 0, 0),
                 fontSize: 20,
