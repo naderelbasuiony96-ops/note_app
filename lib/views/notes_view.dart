@@ -13,6 +13,9 @@ class NotesView extends StatelessWidget {
         backgroundColor: Colors.grey,
         onPressed: () {
           showModalBottomSheet(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16),
+            ),
             context: context,
             builder: (context) {
               return const AddNoteBottomsheet();
