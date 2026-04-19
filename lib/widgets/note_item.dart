@@ -35,7 +35,10 @@ class NoteItem extends StatelessWidget {
               ),
             ),
           ),
-          Text('May21, 2026', style: TextStyle(color: Colors.black)),
+          Text(
+            'May21, 2026',
+            style: TextStyle(color: Colors.black.withValues(alpha: 0.4)),
+          ),
         ],
       ),
     );
