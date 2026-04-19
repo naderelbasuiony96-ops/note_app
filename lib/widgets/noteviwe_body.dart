@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/widgets/custom_appbar.dart';
-import 'package:notes_app/widgets/note_item.dart';
+import 'package:notes_app/widgets/customnote_item.dart';
 
 class NotesViewBody extends StatelessWidget {
   const NotesViewBody({super.key});

@@ -20,11 +20,14 @@ class NoteItem extends StatelessWidget {
               'Flutter Tips',
               style: TextStyle(color: Colors.black, fontSize: 26),
             ),
-            subtitle: const Text(
-              ' Build project with Nader Amr ',
-              style: TextStyle(
-                color: Color.fromARGB(85, 0, 0, 0),
-                fontSize: 20,
+            subtitle: Padding(
+              padding: const EdgeInsets.only(top: 16, bottom: 16),
+              child: const Text(
+                'Build project with Nader Amr ',
+                style: TextStyle(
+                  color: Color.fromARGB(85, 0, 0, 0),
+                  fontSize: 18,
+                ),
               ),
             ),
             trailing: IconButton(
@@ -32,7 +35,7 @@ class NoteItem extends StatelessWidget {
               icon: FaIcon(
                 FontAwesomeIcons.trash,
                 color: Colors.black,
-                size: 30,
+                size: 25,
               ),
             ),
           ),
