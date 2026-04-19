@@ -19,7 +19,7 @@ class NoteItem extends StatelessWidget {
               style: TextStyle(color: Colors.black, fontSize: 26),
             ),
             subtitle: const Text(
-              ' build project with Nader Amr ',
+              ' Build project with Nader Amr ',
               style: TextStyle(
                 color: Color.fromARGB(85, 0, 0, 0),
                 fontSize: 20,
@@ -27,7 +27,7 @@ class NoteItem extends StatelessWidget {
             ),
             trailing: IconButton(
               onPressed: () {},
-              icon: Icon(Icons.delete, color: Colors.black),
+              icon: Icon(Icons.delete, color: Colors.black, size: 35),
             ),
           ),
           Text('May21, 2026', style: TextStyle(color: Colors.black)),
